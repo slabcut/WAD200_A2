@@ -1,0 +1,28 @@
+
+.profileicon {
+   border-radius: 50%;
+   border: 2px solid white;
+   display: block;
+   object-fit: cover;
+   transition: .5s;
+}
+
+.profileicon:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.small {
+   width: 25px;
+   height: 25px;
+}
+
+.medium {
+   width: 35px;
+   height: 35px;
+}
+
+.big {
+   width: 60px;
+   height: 60px;
+}

@@ -1,0 +1,41 @@
+
+.navigation {
+   position: fixed;
+   top: 0;
+   z-index: 2;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   height: 70px;
+   width: 100%;
+   padding: 1em 0 0.9em 0;
+
+   background-color: var(--background-white);
+   border-bottom: 1px solid var(--border-color-grey);
+}
+
+.logo {
+   padding: 0 1em;
+   width: 150px;
+}
+
+.logo:hover {
+   cursor: pointer;
+}
+
+.menu {
+   display: flex;
+   padding-right: 1.5em;
+}
+
+.menu .icon {
+   margin-right: 1.5em;
+   width: 23px;
+   height: 23px;
+}
+
+.menu .icon:hover {
+   cursor: pointer;
+}

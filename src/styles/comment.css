@@ -1,0 +1,17 @@
+
+.commentcontainer {
+   display: flex;
+   align-items: center;
+   padding-left: 1.5em;
+   font-size: 0.75em;
+   margin-bottom: 0.4em;
+}
+
+.commentname {
+   font-weight: 600;
+}
+
+.commenttext {
+   margin-left: 0.5em;
+   color: var(--font-color-secondary);
+}
